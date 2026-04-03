@@ -5,6 +5,8 @@
 * Software Repositories
 
 1.1 Problem Solving
+
+1.2 JavaScript Basics
 Odin Project
 
 The Odin Project - Fundamentals Part 1
@@ -30,3 +32,35 @@ Variables
 
 Numbers
   JavaScript follows the standard mathematical order of operations.
+
+
+
+
+
+
+The Odin Project - Fundamentals Part 2
+Data Types and Conditionals
+  Lesson Overview:
+  * Name the eight data types in JavaScript
+  * Understand the difference between single,double, and backtick quotes
+  * Embed a variable/expression in a string
+  * Understand what a method is.
+  * Name the three logical operators
+  * Understand what the comparison operators are
+  * Understand waht conditionals are
+  * Understand what nesting is
+  * Understand what truthy and falsy values are
+
+
+Strings
+  A string is a piece of text.
+  MDN tutorial on strings in JavaScript
+  You can choosr single quotes ', double quotes ", or backticks ` to wrap your strings in.
+  backticks are called template literal. Tbey behave the as normal strings, but you can emded JavaScript in them. ANd declare template literals over multiple lines.
+  const greeting = `Hello, ${name}`
+  joining strings together is called concatenation
+  Template literals respect the line breaks in the source code.
+  To have theequivalent output using a normal string you'd have to include line break characters \n
+  Including quotes in strings, is to use one of the other characters to declare the string, and another option is to escape the problem quotation mark. In JavaScript, we do this by putting a backslash just before the character 'I\'ve got no right to';
+  When concatenate a string and number, the browser automatically converts the number to a string and concatenates the two strings
+  
