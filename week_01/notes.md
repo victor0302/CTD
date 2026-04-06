@@ -63,4 +63,12 @@ Strings
   To have theequivalent output using a normal string you'd have to include line break characters \n
   Including quotes in strings, is to use one of the other characters to declare the string, and another option is to escape the problem quotation mark. In JavaScript, we do this by putting a backslash just before the character 'I\'ve got no right to';
   When concatenate a string and number, the browser automatically converts the number to a string and concatenates the two strings
-  
+
+  W3Schools lesson on string methods
+  JavaScript strings are primitive and immutable: All string methods produce a new string without altering the original string
+  let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  let length = text.length;
+  Method is a bit of functionality built into the language or specific data types.
+
+  Conditionals
+    Comparisons
