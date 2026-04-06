@@ -80,3 +80,10 @@ Strings
     When values of different types are compared, they get converted to numbers (with the exclusion of a strict equality check).
     The values null and undefined are equal == to themselves and each other, but do not equal any other value.
     Be careful when using comparisons like > or < with variables that can occasionally be null/undefined. Checking for null/undefined separately is a good idea.
+    We wanted to make a special mention of testing boolean (true/false) values, and a common pattern you'll come across again and again. Any value that is not false, undefined, null, 0, NaN, or an empty string ('') actually returns true when tested as a conditional statement, therefore you can use a variable name on its own to test whether it is true, or even that it exists (that is, it is not undefined.) So for example:
+
+    && — AND; allows you to chain together two or more expressions so that all of them have to individually evaluate to true for the whole expression to return true.
+    || — OR; allows you to chain together two or more expressions so that one or more of them have to individually evaluate to true for the whole expression to return true.
+
+
+
