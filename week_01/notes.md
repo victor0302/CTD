@@ -150,3 +150,8 @@ The Odin Project - Fundamentals Part 3
     
 
 
+
+
+1.5 Software Repositories
+  A software repository, often called a "repo", is a centralized storage location for code and related files used in software development. Software repositories allows developers to track changes to code, revert to previous versions of code and merge different branches of development.
+  
