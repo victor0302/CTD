@@ -102,3 +102,29 @@ The Odin Project - Fundamentals Part 3
 
   Functions
     In JavaScript, parameters are the items listed between the parentheses () in the function declaration. Function arguments are the actual values we decide to pass to the function.
+
+
+
+
+
+1.3 JavaScript Naming and Style Conventions
+  Naming Conventions
+    Use camelCase for variables and functions such as firstName and messageString().
+    Use PascalCase for class names like ShoppingCart.
+    Use the UPPER_SNAKE_CASE for constants like MAX_USERS
+    Avoid using single-letter names except for loop counters like i, j, or k.
+    All names should start with letters.
+
+  Function Names
+    Function names should describe the functionality of the function, hence should be verbs. For example, calculateSum() means the function calculates the sum and sendEmail() sends email. Also, functions that return true/false, can start with 'is', 'has', or 'can', for example, isValid() or hasPermission().
+
+  Code Readability
+    Use let and const instead of var
+    Keep consistent indentation and spacing. Many editors have code formatters which will help keep you code consisten.
+    Use template literals for combining strings rather than the + operator.
+    Avoid magic numbers by giving meaningful names to constants.
+    Comment your code to explain why something is done rather than what it does.
+
+
+1.4 Debugging Basics
+  
