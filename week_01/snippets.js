@@ -177,4 +177,10 @@ select.addEventListener("change", () =>
 
 
 
-// 
+// Debugging Examples 
+let firstName = "Rubaina";
+let lastName = "Roshan";
+let fullName = firstName + lastName; // Forgot the space
+
+// Debugging output
+console.log("Full Name:", fullName); // Output will show the missing space
