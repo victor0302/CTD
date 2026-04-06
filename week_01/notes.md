@@ -36,8 +36,6 @@ Numbers
 
 
 
-
-
 The Odin Project - Fundamentals Part 2
 Data Types and Conditionals
   Lesson Overview:
@@ -93,10 +91,14 @@ Strings
 
     There is one final bit of syntax we want to introduce you to before we get you to play with some examples. The ternary or conditional operator is a small bit of syntax that tests a condition and returns one value/expression if it is true, and another if it is false — this can be useful in some situations, and can take up a lot less code than an if...else block if you have two choices that are chosen between via a true/false condition. The pseudocode looks like this:
 
-    
 
 
+The Odin Project - Fundamentals Part 3
+  Function Basics
+  Lesson Overview:
+    How to define and invoke different kinds of functions
+    How to use the return value
+    What function scope is
 
-
-
-
+  Functions
+    In JavaScript, parameters are the items listed between the parentheses () in the function declaration. Function arguments are the actual values we decide to pass to the function.
