@@ -74,7 +74,8 @@ let concatString = `Hello! My name is ${firstName} ${lastName} and I was born in
 
 // ---------- QUESTION 5 ----------
 // Make two variables. One will hold the addition of your your floating point and integer variables from Q2, the other should hold the addition of your integer and negative number from Q2.
-
+let sum = floatingPoint + integer
+let dif = floatingPoint - negative
 // PUT YOUR CODE HERE
 
 // Don't forget your console.logs!
@@ -82,7 +83,10 @@ let concatString = `Hello! My name is ${firstName} ${lastName} and I was born in
 // ---------- QUESTION 6 ----------
 // String Methods
 // Create four variables named "length", "firstInitial", "lastInitial", and "capitalize". Using string methods, assign the length of your first name (use your variable from Q1) to the "length" variable. Assign the first letter of your first name (use your variable from Q1) to the "firstInitial" variable. Assign the LAST letter of your first name (use your variable from Q1) to the "lastInitial" variable. Assign your first name in all capital letters (use your variable from Q1) to the "capitalize" variable.
-
+let length = firstName.length()
+let firstInitial = firstName[0]
+let lastInitial = firstName[-1]
+let capitalize = firstName.toUpperCase()
 //STRETCH GOAL: Create a variable called "weirdInitials". Using string methods, have weirdInitials result in the value of the LAST letters of any first and last names. Both these letters should also be capitalized in "weirdInitials". Example: "Sally Smith"'s weird initials should be "YH" and "Jose Rodriguez"'s inititals should be "EZ"
 
 // PUT YOUR CODE HERE
@@ -91,7 +95,13 @@ let concatString = `Hello! My name is ${firstName} ${lastName} and I was born in
 
 // ---------- QUESTION 7 ----------
 // Declare a variable named "answer7". Then create a conditional if else statement that will assign the value of true to the answer7 variable if your integer from Q2 is greater than 10 and assign it false if it is not.
-
+let answer7;
+if (integer > 10){
+    answer7 = true
+}
+else{
+    answer7 = false
+}
 // STRETCH GOAL: Make an if / else if / else statement that assigns answer7 the value of "less than" if your integer from Q2 is less than 10, "equal to" if it's equal, and "greater than" if it's greater.
 
 // PUT YOUR CODE HERE
@@ -100,7 +110,14 @@ let concatString = `Hello! My name is ${firstName} ${lastName} and I was born in
 
 // ---------- QUESTION 8 ----------
 // Declare a variable called "age" and assign it that value of your age in years. Create a conditional statement that will console.log the phrase "Age is just a number!" if your age is less than or equal to 30 and "Young at heart!" if your age is greater than 30.
+let age = 24
 
+if(age<30){
+    console.log("Age is just a number")
+}
+else{
+    console.log("Young at heart")
+}
 //STRETCH GOAL: Combine your skills! Use template literals to console.log your name in this phrase: "Sally, age is just a number!" or "Jose, you're young at heart!" replacing these examples (Sally and Jose) with your first name instead.
 
 // PUT YOUR CODE HERE
@@ -115,6 +132,7 @@ let concatString = `Hello! My name is ${firstName} ${lastName} and I was born in
 
 // STRETCH GOAL: Complete Q9 using a switch statement instead of if elseif else.
 
+let randomNum
 // PUT YOUR CODE HERE
 
 // Don't forget your console.logs!
