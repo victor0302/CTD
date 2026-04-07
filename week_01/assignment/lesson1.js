@@ -53,7 +53,8 @@ let notANumber = 4 * "test"
 // Create two variables. Name the first variable anything you want and give it the value of true. Name the second variable a different name than the first and give it the value of false.
 
 // PUT YOUR CODE HERE
-
+let neckCurls = true;
+let bicepCurls = false;
 // console.log("Q3: The variable I made true is: ");
 //The output of the above should be true.
 // console.log("Q3: The variable I made false is: ");
@@ -64,7 +65,7 @@ let notANumber = 4 * "test"
 // Create a variable that makes a concatenated string out of the variables you made in Question 1. Be sure you're using your Q1 variables and not making new ones.
 // Suggested text: Hello! My name is (your first name variable and last name variable concatenated here) and I was born in (your country variable here)
 // You can also choose to make the text between the variables strings and concatenate all of them together.
-
+let concatString = `Hello! My name is ${firstName} ${lastName} and I was born in ${country}`
 // STRETCH GOAL: For this stretch goal, make a second variable that still concatenates your 3 variables from Q1, but uses template literals.
 
 // PUT YOUR CODE HERE
