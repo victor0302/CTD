@@ -24,9 +24,9 @@ let lastName = "Salazar"
 let country = "Mexico"
 //PUT YOUR CODE HERE
 
-// console.log("Q1: My first name is: ", firstName);
-// console.log("Q1: My last name is: ", lastName);
-// console.log("Q1: I was born in the country: ", country);
+console.log("Q1: My first name is: ", firstName);
+console.log("Q1: My last name is: ", lastName);
+console.log("Q1: I was born in the country: ", country);
 
 // ---------- QUESTION 2 ----------
 // Declaring and giving numerical values to variables.
@@ -40,13 +40,13 @@ let floatingPoint = 1.4
 let integer = 4
 let negative = -1
 let notANumber = 4 * "test"
-// console.log(
-//  "Q2: This is a decimal, also called a floating point number: ",
-//  floatingPoint
-// );
-// console.log("Q2: This is a whole number, also called an integer: ", integer);
-// console.log("Q2: This is a negative number: ", negative);
-// console.log("Q2: You can't mulitply 4 by a word! ", notANumber);
+console.log(
+"Q2: This is a decimal, also called a floating point number: ",
+ floatingPoint
+);
+console.log("Q2: This is a whole number, also called an integer: ", integer);
+console.log("Q2: This is a negative number: ", negative);
+ console.log("Q2: You can't mulitply 4 by a word! ", notANumber);
 
 // ---------- Question 3 ----------
 // Declaring and giving boolean values to variables.
@@ -55,9 +55,9 @@ let notANumber = 4 * "test"
 // PUT YOUR CODE HERE
 let neckCurls = true;
 let bicepCurls = false;
-// console.log("Q3: The variable I made true is: ");
+ console.log(`Q3: The variable I made true is: ${neckCurls} `);
 //The output of the above should be true.
-// console.log("Q3: The variable I made false is: ");
+console.log(`Q3: The variable I made false is: ${bicepCurls}`);
 //The output of the above should be false.
 
 // ---------- QUESTION 4 ----------
@@ -66,6 +66,7 @@ let bicepCurls = false;
 // Suggested text: Hello! My name is (your first name variable and last name variable concatenated here) and I was born in (your country variable here)
 // You can also choose to make the text between the variables strings and concatenate all of them together.
 let concatString = `Hello! My name is ${firstName} ${lastName} and I was born in ${country}`
+console.log(concatString)
 // STRETCH GOAL: For this stretch goal, make a second variable that still concatenates your 3 variables from Q1, but uses template literals.
 
 // PUT YOUR CODE HERE
@@ -74,27 +75,30 @@ let concatString = `Hello! My name is ${firstName} ${lastName} and I was born in
 
 // ---------- QUESTION 5 ----------
 // Make two variables. One will hold the addition of your your floating point and integer variables from Q2, the other should hold the addition of your integer and negative number from Q2.
-let sum = floatingPoint + integer
-let dif = floatingPoint - negative
 // PUT YOUR CODE HERE
-
+let sum = floatingPoint + integer
+let dif = integer + negative
+console.log(sum)
+console.log(dif)
 // Don't forget your console.logs!
 
 // ---------- QUESTION 6 ----------
 // String Methods
 // Create four variables named "length", "firstInitial", "lastInitial", and "capitalize". Using string methods, assign the length of your first name (use your variable from Q1) to the "length" variable. Assign the first letter of your first name (use your variable from Q1) to the "firstInitial" variable. Assign the LAST letter of your first name (use your variable from Q1) to the "lastInitial" variable. Assign your first name in all capital letters (use your variable from Q1) to the "capitalize" variable.
-let length = firstName.length()
-let firstInitial = firstName[0]
-let lastInitial = firstName[-1]
-let capitalize = firstName.toUpperCase()
+
 //STRETCH GOAL: Create a variable called "weirdInitials". Using string methods, have weirdInitials result in the value of the LAST letters of any first and last names. Both these letters should also be capitalized in "weirdInitials". Example: "Sally Smith"'s weird initials should be "YH" and "Jose Rodriguez"'s inititals should be "EZ"
 
-// PUT YOUR CODE HERE
-
+let length = firstName.length
+let firstInitial = firstName[0]
+let lastInitial = firstName[length-1]
+let capitalize = firstName.toUpperCase()
+console.log(length,firstInitial,lastInitial,capitalize)
 // Don't forget your console.logs!
 
 // ---------- QUESTION 7 ----------
 // Declare a variable named "answer7". Then create a conditional if else statement that will assign the value of true to the answer7 variable if your integer from Q2 is greater than 10 and assign it false if it is not.
+// STRETCH GOAL: Make an if / else if / else statement that assigns answer7 the value of "less than" if your integer from Q2 is less than 10, "equal to" if it's equal, and "greater than" if it's greater.
+
 let answer7;
 if (integer > 10){
     answer7 = true
@@ -102,25 +106,22 @@ if (integer > 10){
 else{
     answer7 = false
 }
-// STRETCH GOAL: Make an if / else if / else statement that assigns answer7 the value of "less than" if your integer from Q2 is less than 10, "equal to" if it's equal, and "greater than" if it's greater.
-
-// PUT YOUR CODE HERE
-
+console.log(answer7)
 // Don't forget your console.logs!
 
 // ---------- QUESTION 8 ----------
 // Declare a variable called "age" and assign it that value of your age in years. Create a conditional statement that will console.log the phrase "Age is just a number!" if your age is less than or equal to 30 and "Young at heart!" if your age is greater than 30.
+
+//STRETCH GOAL: Combine your skills! Use template literals to console.log your name in this phrase: "Sally, age is just a number!" or "Jose, you're young at heart!" replacing these examples (Sally and Jose) with your first name instead.
+
 let age = 24
 
-if(age<30){
+if(age<= 30){
     console.log("Age is just a number")
 }
 else{
     console.log("Young at heart")
 }
-//STRETCH GOAL: Combine your skills! Use template literals to console.log your name in this phrase: "Sally, age is just a number!" or "Jose, you're young at heart!" replacing these examples (Sally and Jose) with your first name instead.
-
-// PUT YOUR CODE HERE
 
 // Don't forget your console.logs!
 
@@ -132,8 +133,17 @@ else{
 
 // STRETCH GOAL: Complete Q9 using a switch statement instead of if elseif else.
 
-let randomNum
-// PUT YOUR CODE HERE
+let randomNum = Math.floor(Math.random() * 3 ) + 1;
+
+if(randomNum == 1){
+    console.log("It is certain")
+}
+else if(randomNum == 2){
+    console.log("Perhaps")
+}
+else{
+    console.log("Absolutely not")
+}
 
 // Don't forget your console.logs!
 
@@ -142,7 +152,10 @@ let randomNum
 
 // STRETCH GOAL: Achieve the same results as Q10 using Math methods instead of Number methods. HINT: you may need to alter the variable over a series of calculations/method uses.
 
-// PUT YOUR CODE HERE
+let exampleNum = 4.4568 
+exampleNum = Number(exampleNum.toFixed(2));
+
+console.log(exampleNum)
 
 // Don't forget your console.logs!
 
@@ -150,14 +163,21 @@ let randomNum
 // Declare two variables named "stringNum" and "mathNum". Assign stringNum a string of numbers and mathNum a number. Create a third variable named "answer11" and have it multiply stringNum and mathNum. Remember to convert your string in order for it to properly calculate!
 
 // PUT YOUR CODE HERE
-
+let stringNum = "456"
+let mathNum = 2468
+let answer11 = Number(stringNum) * mathNum
+console.log(answer11)
 // Don't forget your console.logs!
 
 // ---------- QUESTION 12 ----------
 // Create a function titled 'messageString'. Inside the function, declare a variable named 'message' and assign it the string "Welcome to Code the Dream!". Return the 'message' variable.
+function messageString(){
+    let message = "Welcome to Code the Dream!"
+    return message
+}
 
 // EXAMPLE LOG:
-//  console.log("Q12: ", messageString());
+console.log("Q12: ", messageString());
 // EXAMPLE OUTPUT:
 //  Q12: Welcome to Code the Dream!
 
@@ -165,9 +185,13 @@ let randomNum
 
 // ---------- QUESTION 13 ----------
 // Create a function called 'combineStrings'. Inside the function, declare two variables named 'string1' and 'string2'. Assign them the strings 'Good' and 'Evening' respecitvely. Return the two strings concatenated with a space in between.
-
+function combineStrings(){
+    let string1 = "Good"
+    let string2 = "Evening"
+    return (string1 + " " + string2)
+}
 // EXAMPLE LOG:
-//  console.log("Q13: ", combineStrings());
+console.log("Q13: ", combineStrings());
 // EXAMPLE OUTPUT:
 //  Q13: Good Evening
 
@@ -175,9 +199,11 @@ let randomNum
 
 // ---------- QUESTION 14 ----------
 // Let's start working with parameters. Create a function called 'useParams' that takes one parameter and returns that parameter with the all letters capitalized.
-
+function useParams(x){
+    return(x.toUpperCase())
+}
 // EXAMPLE LOG:
-//  console.log("Q14: ", useParams("hello"));
+console.log("Q14: ", useParams("hello"));
 // EXAMPLE OUTPUT:
 //  Q14 HELLO
 
@@ -192,3 +218,18 @@ let randomNum
 //  Q15: 5
 
 // PUT YOUR CODE HERE
+let word1 = "word"
+let word2 = "word2"
+
+function biggestStringLength(word1,word2){
+    if( word1.length == word2.length){
+        return(word1.length)
+    }
+    else if(word1.length > word2.length){
+        return(word1.length)
+    }
+    else{
+        return (word2.length)
+    }
+}
+console.log("Q15: ", biggestStringLength(word1, word2))
