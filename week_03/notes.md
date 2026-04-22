@@ -118,5 +118,39 @@
     This looks very similar to how you access the items in an array, and it is basically the same thing - instead of using an index number to select an item, you are using the name associated with each member's value. It is no wonder that objects are sometimes called associative arrays- they map strings to values in the way way that arrays map numbers to values.
 
     Dot notation is generally preferred over bracket notation because it is more succinct and eaiser to read. If an object property name is held in a variable, then you can't use dot notation to access the value, but you can access the value using bracket notation.
+
     
+    Setting object members
+    So far we've only looked at retrieving (or getting) object members - you can also set (update) the value of object members by declaring the member you want to set(using dot or bracket notation). person.age =45; person["name"]["last"] = "Cratchit"
+
+    One useful aspect of bracket notation is that it can be used to set not only memeber values dynamically, but member naes too.
+
+
+    What is "this"?
+    The this keyword typically refers to the current object the code is being executed in. In the context of an object method, this refers to the object that the method was called on.
+
+
+    Introducing constructors
+    Using object literals is fine when you only need to create one object, but if you have to create more than one, they're seriously inadequate. We would like a way to define the "shape" of an object - the set of methods and the properties it can have- and then create as many objects as we like. This works finr but is a bit long-winded: we have to create an empty object, initialize it, and return it. A better way is to use a constructor. A constructor is just a function called using the new keyword. When you call a constructor, it will:
+    * create a new object
+    * bind this to the new object, so you can refer to this in your constructor code
+    * run the code in the constructor
+    * return the new object
+
+    Constructors, by convention, start with a capital letter and are named for the type of object they create. 
+
+
+
+
+
+
+
+
+### 3.2 Continuing with Git - Commit and Push Updates 
+    This week, we are going to make some changes in our repository, commit them and push them back to our remote repository. This process involves creating a new branch, staging, your changes with git add, and saving them to your history with git commit.
+
+
+
+
+
     
