@@ -41,3 +41,14 @@ Overall, callbacks are a fundamental building block in software development, ena
 
 
 #### Continuing with Git - What is a Pull Request?
+A pull request is a request to merge a set of changes from one branch into another. You can also think of it as requesting that a branch pull your updated code into that branch. The source branch is the branch with new or modified code that a dev wants to contribute. The target branch is the branch into which the changes will be merged, typically the main or development branch of the project.
+
+After the PR(Pull Request) has been approved, then the owner of the target branch can merge the code.
+
+
+#### Notes over assigment
+Use for ... of to get the value directly
+Use for ... in to get the index
+
+For in use for objects as it gives you the keys
+For of use for iterables (arrays, strings), gives you the values
