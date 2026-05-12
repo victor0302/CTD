@@ -1,0 +1,37 @@
+* {
+  color: purple;
+}
+
+/* styles.css */
+
+div {
+  color: white;
+}
+
+/* styles.css */
+
+.alert-text {
+  color: red;
+}
+
+/* styles.css */
+
+#title {
+  background-color: red;
+}
+
+
+
+.read,
+.unread {
+  color: white;
+  background-color: black;
+}
+
+.read {
+  /* several unique declarations */
+}
+
+.unread {
+  /* several unique declarations */
+}
