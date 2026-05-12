@@ -49,4 +49,49 @@ Void Elements dont havr closing tags, because they are void of any conttent.
 ##### HTML Boilderplate
 All HTML documents have the same basic structure or boilerplate that needs to be in place before anything useful can be done.
 
+##### Working with Text
+Most content on the web page is text-based, so you will find yourself needing to work with HTML text elements quite a bit.
 
+Paragraphs
+<body>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua.
+
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+  nisi ut aliquip ex ea commodo consequat.
+</body>
+It looks like two paragrpahs of text, When the browser encounters new lines like this in your HTML, it will compress them down into one single space. If we want to create paragrpahs in HTML, we need to use the paragraph element.
+
+Headings
+There are 6 different levels of headings from <h1> to <h6>
+
+Strong Element
+The <strong> element makes textbold.
+
+Em Element
+<em> element makes text italic
+
+Nesting and indentation
+When we nest elements within other elements, we create a parent and child relationship between them.
+
+HTML comments
+In order to write an HTML comment, we just enclose the comment with <!-- and --> 
+
+
+##### Lists 
+Unordered lists
+Unordered lists are created using the <ul> element, and each item within the list is created using the list item <li>
+
+Ordered lists
+Ordered lists are created using the <ol> elemetn. Each individual item in them is again vrated using the list item element <li>
+
+
+##### Links and Images
+
+
+#### HTML Overview
+
+At its core, hypertext is a digital text that can link to other places, such as one website connecting to another.
+
+Html elements are the basic building blocks of a webpage. Each HTML element represents a different type of content, Each element is represented using 1 or 2 tags.
+An HTML tag is how we code an HTML element. All tags use brackets <>. 
