@@ -70,3 +70,5 @@ Legend
 
 
 ## 7.2 Dev Tools
+Live preview, preittier.
+In the index.html, launch java code. Your code is loaded to browser and then the browser will load the code and build the website.
