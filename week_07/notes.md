@@ -63,3 +63,10 @@ Sometimes you will want users to select a vlaue from a predefined list.
 
 Radio buttons
 Select dropdowns are great for saving space on the page when we have an extensive list of options we want users to choose from.
+
+Organizing form elements
+Fieldset element
+Legend
+
+
+## 7.2 Dev Tools
