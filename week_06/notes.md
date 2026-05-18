@@ -82,7 +82,43 @@ margin: increases the space between the borders of a box and the borders of adja
 
 
 ##### Block and Inline
-CSS has two box types: block and inline boxes.
+CSS has two box types: block and inline boxes, which determine element behvaior and interaction. The display property controls how HTML elements appear on the webpage. 
+
+Block vs inline
+Most of the elements that you have learned about so far are block elements. Their default style is diplay: block. By default block elements will appear on the page stacked atop each other, each new element starting on a new line.
+
+Inline, however, do not start on a new line. They appear in line with whatever elements they are places beside.
+
+The middle ground inline-block
+Inline-block elements behave like inline elements, but with block-style padding margin. display: inline-block is a useful tool to know about, but in practice, you'll probably end up reaching for flexbot more often if you're trying to line up a bunch of boxes.
+
+Divs and spans
+Divs and spans give no particular meaning to their content. They are just generic boxes that can contain anything.
+Div is a block-level element by deafult. It is commonly used as a container element to group other elements. Divs allow us to divide the page into different blocks and apply styling to those blocks.
+Span is an inline-level element by default. It can be used to group text content and inline HTML elements for styling and should only be used when no other semantic HTML element is appropriate.
+
+
+##### More CSS Properties
+
+Background
+The background property is actually a shorthand for 8 different background-relate properties.
+
+Borders
+The border property is another shorthand, but ir is much less complicated than the background shorthand. Just need to define a size,style, and color.
+
+
+##### Positioning
+Static and relative positioning
+The default positioning mode that you've gotten used to is position: static. Static is the default position of every element, and properties top,right,bottom, and left do no affect the position of the element.
+
+Absotlute positioning
+position: absolute allows you to position something at an exact point on the screen without distrubing the other elements around
+
+Fixed positioning
+Fixed elements are also removed from the normal flow of the doucment and are positioned relative to the viewpoint. Useful for things like navigation bars and floating chat buttons.
+
+Sticky postioning
+Sticky element will act like normal elements until you scroll past them, then they start behaving like fized elements.
 
 
 
