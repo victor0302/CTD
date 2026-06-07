@@ -23,5 +23,9 @@ Callbacks are functions passed to other functions to be executed later
 Promises are objects representing the eventual success or failure of an async operation with methods for handling these outcomes. They are called promises because they gurantee that an async operation will eventually produce a value or a reason for its failure.
 
 ### 8.3 Lesson Materials
+#### Callbacks
+A callback function is a function passed into another functino as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
 
-
+#### Promises
+Promises are one such mechanism, and they're one you will see somewhat often when using other librairies or frameworks.
+Essentially, a promise is an object that might produce a value at some point in the future. 
