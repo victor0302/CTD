@@ -7,4 +7,5 @@ This week you'll be working with an Open API. An Open API is a data source that 
 ### Lesson 10 - Open API
 This week, you'll explore a public API of your choice and build a new page using what you've learned
 
-### 10.1
+Open sourse means that the source code of something is freely available and can be redistributed and modified. 
+
