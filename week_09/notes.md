@@ -42,3 +42,14 @@ await does the folliwng: it tells JavaScript to wait for an asynchronous action 
 Error handling
 Promises have the .catch() method for handling rejected promises, and since async function just return a promise, you can call the function, and append a .catch() method to the end.
 But there is another way: the try...catch statement! If you want to handle the error directly insde the async function, you can use try...catch with async/await syntax. 
+
+
+## 9.2 The fetch API
+At a high level, fetch is used to make HTTP requests on the browser. It uses Promises to handle the asynchronous nature of HTTP requests and respponses. 
+
+fetch has two parameters, url and options. If the URL is the only argument passed into the fetch function, then a get request will be made.
+
+## 9.3 Async and Await
+The async keyword is applied to a function. On its own, the async keyword transforms the function so that when the function is invoked, the return value will be wrapped in a promise.
+The await keyword allows you to treat async requests as if they were sync
+
