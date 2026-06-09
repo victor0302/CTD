@@ -12,4 +12,4 @@ Open sourse means that the source code of something is freely available and can 
 ### 10.2 API Keys and Security
 Some APIs require an API Key. An API key is a unique indentifer, similar to a password that auth your application to an API.
 
-### Final 
+### Final Project Open API Requriements
