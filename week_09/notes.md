@@ -32,5 +32,13 @@ what an async function returns
 explain what happens when an error is thrown inside an async function
 explain how you can handle errors inside an async function
 
+The async keyword
+The async keyword is what lets the JavaScript engine know that you are declaring an asynchronous function, it automatically returns a promise. Throwing an error will reject the promise.
+An important thing to understand is async functions are just syntactial sugar for promises. 
 
+The await keyword
+await does the folliwng: it tells JavaScript to wait for an asynchronous action to finish before continuing the function. It's like a pause until done keyword. The await keyword is used to get a value from a function where you would normaly use .then(). Instead of calling .then() after the asynchronous function, you would assign a variable to the results using await. 
 
+Error handling
+Promises have the .catch() method for handling rejected promises, and since async function just return a promise, you can call the function, and append a .catch() method to the end.
+But there is another way: the try...catch statement! If you want to handle the error directly insde the async function, you can use try...catch with async/await syntax. 
