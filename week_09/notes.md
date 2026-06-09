@@ -53,3 +53,17 @@ fetch has two parameters, url and options. If the URL is the only argument passe
 The async keyword is applied to a function. On its own, the async keyword transforms the function so that when the function is invoked, the return value will be wrapped in a promise.
 The await keyword allows you to treat async requests as if they were sync
 
+## 9.4 Final Project Rubric
+Project Structure
+ README.md (NOTE: this file is typically used to explain how someone can run your code, but it does not need to contain this content for your final project to be acceptable)
+index.html
+css folder
+
+    index.css
+
+js folder
+
+    index.js
+
+(OPTIONAL) images folder
+
