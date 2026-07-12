@@ -40,3 +40,30 @@ React offers hooks like useMemo and useCallback that help optimize performance b
 React use of a Virtual DOM, this is a lightweight copy of the actual DOM in memory. When there are changes in the state of a compound, React first updates the Virtual DOM and then compares it to the real DOM to identify the changes needed. 
 
 To work with a React project, we must choose a build tool and server. One of the best ways to get started is using Vite with a React template.
+
+The scaffolded project includes a starter SPA and a few supporting files.
+.git/: is an ivisible directory created by Git to maintain version control.
+.eslint.config.js: is used to configure ESLINT, a tool used to identify syntax problems or common anti-patterns
+index.html: this file is the entry point for the application
+package.json: this file contains details about the project, some scripts aliases, and a list of all the packages that the project is dependent upon
+public: this a directory is used to hold static assests like images and fonts that we want to remain unchanged
+src: this directory contains the majority of the working files for the application
+vite.config.js: this file sets configuration options for vite
+
+## Vite Sub-tools
+esbuild: Vite uses esbuild for pre-bundling during development. It converts all of our coded and dependencies into native ESM (ECSMAScript Module) understood by browsers.  It also combies project dependeinces into a single cached noduel to improve page loading/refreshing while we code. 
+
+Rollup: this is another module bundler for JavaScript. Vite uses this t output highly oprimized files for production
+
+PostCSS: PostCSS is a JS tool that tranforms CSS through an exosystem of plugins
+
+CSS Modules: this tool scoopes class selectors in module files to the repsicve compone file.
+
+## Features
+HMR: Hot Module Replacement. This is the ability to replace a JavaScript module in the browser while maintainig application state. This mean that the app doesn't need to re-start.
+
+TypeScript support: TypeScript (TS) provides valuable guard rails for developers so that they ccan develop bug-free, perfomant JavaScript. Since browsers and Node don't natively support TS, the code has to be transpiled to JavaScript.
+
+JSX transformation: Similar to TypeScript, browsers do not understand JSX. This extension of JavaScript needs converted to plain JavaScript before being served to a browser.
+
+CSS, JSON importing: JavaScript files are not normally able to import files that are written in other languages. Vite injects CSS onto the page and gives it HMR support
